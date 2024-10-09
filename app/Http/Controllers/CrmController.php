@@ -32,7 +32,6 @@ class CrmController extends Controller
                     'authtoken' => $this->authToken,
                     'Content-Type' => 'application/json',
                 ],
-                'verify' => false,
             ]);
 
             // Return CRM API response
@@ -74,7 +73,6 @@ class CrmController extends Controller
                 'authtoken' => $this->authToken,
                 'Content-Type' => 'application/json',
             ],
-            'verify' => false,
         ]);
 
         // Check if the response status is successful (200 OK)

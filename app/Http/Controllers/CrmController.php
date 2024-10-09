@@ -94,7 +94,7 @@ class CrmController extends Controller
         }
         // Return a generic error response
         return response()->json(['status' => false, 'message' => 'An error occurred while validating the customer ID.'], 500);
-    }
+    }   
 
     // In case of any unexpected behavior
     return response()->json(['status' => false]);
